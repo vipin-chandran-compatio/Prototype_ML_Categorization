@@ -6,6 +6,7 @@ import numpy as np
 import configparser
 import slack
 from slack.errors import SlackApiError
+import os.path
 #from neomodel import db
 import boto3
 from py2neo import Graph, Node, Relationship
@@ -87,7 +88,6 @@ def ready_data(df):
     print("Readying data - Cleanup and Structuring")
     df['Description_Cleaned'] = cleanup.clean_text(df.Description)
     df = df[~df['Description_Cleaned'].isna()]
-    #return df[['Itemname','Description','Description_Cleaned']]
     return df
 
 def main():
@@ -98,23 +98,14 @@ def main():
         config.read('config.ini')
         output_folder = config['config']['output_folder']
         read_folder = config['config']['read_folder']
-        #stop_words_list = config['config']['stop_words_list']
         inputfile = config['config']['inputfile']
+        modelFolder = config['config']['modelFolder']
         model_pkl_name = config['config']['model_pkl_name']
         vec_pkl_name = config['config']['vec_pkl_name']
-        modelFolder = config['config']['modelFolder']
-        extraction_query = config['config']['extraction_query']
         attach_flag = config['config']['attach_flag']
-
-        #slacktoken = config['config']['slacktoken']
-        #slackchannel = config['config']['slackchannel']
-        #s3_file = config['config']['s3_file']
-        #graph_host = config['config']['graph_host']
+        notify = config['config']['notify']
         slacktoken = settings.slacktoken
         slackchannel = settings.slackchannel
-        s3_file = settings.s3_file
-        graph_host = settings.graph_host
-
 
     except Exception as e:
         raise Exception(str(e))
@@ -125,16 +116,18 @@ def main():
     #input = folder + inputfile
     model_file = modelFolder + model_pkl_name
     vector_file = modelFolder + vec_pkl_name
-    #df_gms = gms_extraction(graph_host, extraction_query, slacktoken, slackchannel)
-    #df_s3 = s3_extract(s3_file, slacktoken, slackchannel)
-    df_midday_raw = pd.read_csv(read_folder + inputfile)
+    if os.path.exists(read_folder + inputfile):
+       df_midday_raw = pd.read_csv(read_folder + inputfile)
+    else:
+        print("Input file does not exist. Exiting!")
+        exit(1)
 
     if (len(df_midday_raw)):
         df_final = ready_data(df_midday_raw)
     else:
         err = "Empty Dataframe(s). Exiting!"
         print(err)
-        send_message(slacktoken, slackchannel, "Error from " + __file__ + "\n" + str(err),"0", output_folder)
+        if notify == "1": send_message(slacktoken, slackchannel, "Error from " + __file__ + "\n" + str(err),"0", output_folder)
         exit(1)
 
     model, vec = load_model(model_file, vector_file)
@@ -143,14 +136,14 @@ def main():
     if len(df_res.index):
         output = output_folder + "\\categorized_" + inputfile
         df_res.to_csv(output, index=False)
-        #send_message(slacktoken, slackchannel, "From " + __file__ + "\n", attach_flag, output)
+        #if notify == "1": send_message(slacktoken, slackchannel, "From " + __file__ + "\n", attach_flag, output)
         print(df_res['predicted_category'])
         print("Done!")
-        send_message(slacktoken,slackchannel,"Test from script: Done!","0", output)
+        if notify == "1": send_message(slacktoken,slackchannel,"Test from script: Done!","0", output)
     else:
         err = "Model results are empty. Exiting!"
         print(err)
-        send_message(slacktoken, slackchannel, "Error from " + __file__ + "\n" + str(err),"0", output)
+        if notify == "1": send_message(slacktoken, slackchannel, "Error from " + __file__ + "\n" + str(err),"0", output)
         exit(1)
 
 
