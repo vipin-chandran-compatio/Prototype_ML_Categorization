@@ -87,7 +87,8 @@ def ready_data(df):
     print("Readying data - Cleanup and Structuring")
     df['Description_Cleaned'] = cleanup.clean_text(df.Description)
     df = df[~df['Description_Cleaned'].isna()]
-    return df[['Itemname','Description','Description_Cleaned']]
+    #return df[['Itemname','Description','Description_Cleaned']]
+    return df
 
 def main():
 
@@ -95,8 +96,8 @@ def main():
     try:
         config = configparser.ConfigParser()
         config.read('config.ini')
-        folder = config['config']['folder']
-        print(folder)
+        output_folder = config['config']['output_folder']
+        read_folder = config['config']['read_folder']
         #stop_words_list = config['config']['stop_words_list']
         inputfile = config['config']['inputfile']
         model_pkl_name = config['config']['model_pkl_name']
@@ -126,27 +127,23 @@ def main():
     vector_file = modelFolder + vec_pkl_name
     #df_gms = gms_extraction(graph_host, extraction_query, slacktoken, slackchannel)
     #df_s3 = s3_extract(s3_file, slacktoken, slackchannel)
-    df_midday_raw = pd.read_csv(
-        'C:\\Users\\user\\Documents\\Compatio\\AI\\MRFC\\MRFC_ProductClassification\\NaiveBayes\\midday_testing.csv')
+    df_midday_raw = pd.read_csv(read_folder + inputfile)
 
     if (len(df_midday_raw)):
         df_final = ready_data(df_midday_raw)
     else:
         err = "Empty Dataframe(s). Exiting!"
         print(err)
-        send_message(slacktoken, slackchannel, "Error from " + __file__ + "\n" + str(err),"0", output)
+        send_message(slacktoken, slackchannel, "Error from " + __file__ + "\n" + str(err),"0", output_folder)
         exit(1)
 
     model, vec = load_model(model_file, vector_file)
     df_res = prediction(df_final, model, vec)
 
     if len(df_res.index):
-        output = folder + "\\categorized_" + inputfile
+        output = output_folder + "\\categorized_" + inputfile
+        df_res.to_csv(output, index=False)
         #send_message(slacktoken, slackchannel, "From " + __file__ + "\n", attach_flag, output)
-
-        #mismatches = df_res[df_res['Category'] != df_res['predicted_category']]
-        #print("Prediction Accuracy",100-(len(mismatches)/len(df_res))*100)
-        #print("Number of records to be reviewed {} out of {}".format(len(mismatches), len(df_res)))
         print(df_res['predicted_category'])
         print("Done!")
         send_message(slacktoken,slackchannel,"Test from script: Done!","0", output)
