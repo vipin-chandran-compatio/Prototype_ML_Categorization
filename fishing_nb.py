@@ -48,8 +48,7 @@ def send_attach(token, channel, opfile):
         })
         assert r.status_code == 200
 
-def load_model(model_file, vector_file): #test
-
+def load_model(model_file, vector_file):
     # model variable refers to the global variable
     with open(model_file, 'rb') as f:
         model = pickle.load(f)
@@ -61,26 +60,16 @@ def load_model(model_file, vector_file): #test
 def prediction(df, model, vec):
     perf = []
     prob = []
-    check = []
-    info = []
     df = df.reset_index(drop=True)
 
     for idx, i in df['Description_Cleaned'].iteritems():
-        # print(i)
-        #####X6 = vectorizer.transform([i])
-        #####y_pred2 = model.predict(X6.toarray())
         X6 = vec.transform([i])
         y_pred2 = model.predict(X6.toarray())
         perf.append(y_pred2[0])
         prob.append(format(np.amax(model.predict_proba(X6.toarray())), 'f'))
-        # if y_pred2[0] == df['category'].iat[idx]:
-        # check.append("MATCH")
-        # else:
-        # check.append("MIS-MATCH")
 
     df['predicted_category'] = perf
     df['probability'] = prob
-    #####df['check'] = check
 
     return df
 
