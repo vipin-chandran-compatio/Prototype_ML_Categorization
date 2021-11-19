@@ -10,7 +10,7 @@ import os.path
 #from neomodel import db
 import boto3
 from py2neo import Graph, Node, Relationship
-import settings
+#import settings
 import cleanup
 
 def send_message(token, channel, msg, attach_flag, opfile):
@@ -104,16 +104,10 @@ def main():
         vec_pkl_name = config['config']['vec_pkl_name']
         attach_flag = config['config']['attach_flag']
         notify = config['config']['notify']
-        slacktoken = settings.slacktoken
-        slackchannel = settings.slackchannel
 
     except Exception as e:
         raise Exception(str(e))
     #########################################
-
-    #vectorizer = CountVectorizer(analyzer='word', ngram_range=(
-    #    1, 1), token_pattern=r'\b[a-zA-Z]{2,}\b')
-    #input = folder + inputfile
     model_file = modelFolder + model_pkl_name
     vector_file = modelFolder + vec_pkl_name
     if os.path.exists(read_folder + inputfile):
