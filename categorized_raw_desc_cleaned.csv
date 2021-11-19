@@ -1,0 +1,187 @@
+UID,Category,Description,predicted_category,probability
+b1ff13ad8a9845f28bd26fbb7e7fb1ea,FRONT-WHEEL, sram sun front wheel bolt black,REAR-WHEEL,0.351443
+4a23f17e0ddb4d418b19a6d052dc1966,FRONT-WHEEL, quality wheels value single wall series front wheel silver,WHEELSET,0.634401
+d8951a709e974c4b856c34f8e27863c7,FRONT-WHEEL, quality wheels front wheel black,WHEELSET,0.369361
+c25e66b896ec4983b5c13f01ac79b7f7,FRONT-WHEEL, quality wheels tcs front wheel bolt black,REAR-WHEEL,0.651181
+c5755a73a36d4e7997453ac97e7e7779,FRONT-WHEEL, quality wheels tcs front wheel bolt black,REAR-WHEEL,0.651181
+6f6fb1a5254e407e88ea20c7384c1d2e,FRONT-WHEEL, quality wheels value series front wheel black,WHEELSET,0.892828
+f8490cf2ea05443589518e061aa58dda,BRAKESET, hydraulic disc rear,BIKE,0.291470
+36ab34abbc8b493da20128a7e637eb25,BRAKESET, sram level hydraulic disc rear,BIKE,0.451264
+f6d3249fed474c88b4a005725358d05a,BRAKESET, sram level hydraulic disc front,BIKE,0.190913
+c545f7a65fb9472f8f78ac6205a841b7,BRAKESET, sram guide hydraulic disc front,BIKE,0.230925
+4c7a5f1689894bc284fd06247991129f,TIRE, tire tubeless folding black,WHEELSET,0.449216
+4d47936c89a74bb1b1ed0d27e490d588,TIRE, tire tubeless folding black,WHEELSET,0.449216
+91d3bbd9606a4c81ac56fed403d04028,TIRE, course tire tubeless folding black,WHEELSET,0.322087
+7070ada1d1de44668819a11fd0867285,TIRE, course tire tubeless folding black,WHEELSET,0.322087
+be1b0dfd934a4fde8a8d63ff3d4786d4,TIRE, tire tubeless folding,WHEELSET,0.475446
+110e970843ee40a9bf12f7c845027038,TIRE, tire tubeless folding black,WHEELSET,0.449216
+d2f5e3b1ca934d2da231919bc64ba7f7,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+d05f86fe2c834ace94bb3b6eb74f027c,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+8795d2f7938a4442b37067aa742682dd,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+2f7c5609b0ea4b0bae44ff7b3a5589ad,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+b0d20c7165c34a61904b354b93b95b10,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+c7acfca04c024343a2d27749b7acd80b,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+543e4aa3088a43e2b024e876e675ea7d,TIRE, tire tubeless folding black,WHEELSET,0.449216
+dab01161c73141ab93709202e79125fd,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+dd0da1baef1e41fc8a8c5bc9c8dc58e1,TIRE, tire tubeless folding black,WHEELSET,0.449216
+ad7d46a7035b4ac4ad4e98dbb628e56a,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+6057f3029f824c5badd4565cd9f1f8f4,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+e334e1ed34484689a836b7eb887d4b55,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+42aa32b377564a2dadca57fe5f08bf34,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+e0d21cc2ebae4a3c9421b9b18c9a57dc,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+d013599a49034fd48ea45a2b1ce28624,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+9ca79b5eb863432580a6be16890da53d,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+258a7f3b1523401eab956b80c1321f86,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+d97885cfb59240d0afc837574b83c216,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+4dd0528169e24eab8c4970046b9aea91,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+26a55deba3ce40839d2532888c7d6f47,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+2cf21ad96f3e4cc288c87d325e814572,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+151b75d7d25c442bb9289f68b9faa33c,TIRE, durable tire tubeless folding black,WHEELSET,0.528583
+e45afcdf0f514f3d9a601d5d4d62904c,TIRE, tire tubeless folding black,WHEELSET,0.449216
+d952c648d04a4c0190d864f5d0c69a88,TIRE, tire tubeless folding black,WHEELSET,0.449216
+2fb8fcb24d7440819710eb1251871006,TIRE, tire tubeless folding black,WHEELSET,0.449216
+7b9f58784fe7443c857fb0b1605d9792,TIRE, tire tubeless folding black,WHEELSET,0.449216
+fd65bac624cb41819581dce1850681e5,TIRE, enduro tire tubeless folding black,WHEELSET,0.485802
+b4e7670c0ddf4fdd972a7aca69f0617c,TIRE, tire tubeless folding,WHEELSET,0.475446
+a6c8bccb218a4cd8928556e2630ba413,TIRE, tire tubeless folding,WHEELSET,0.475446
+01bec517bc1642c59e0799cf04c6ee38,TIRE, dry tire tubeless folding black,WHEELSET,0.560227
+469ea866890b44559357e0f0cedefa74,TIRE, tire tubeless folding,WHEELSET,0.475446
+dce47ebb9f7e4bb3a83e58bc8f32c679,TIRE, trail blk blk,STEM,0.086982
+19f29ce6c0bf482c975708e5af871da9,TIRE, tire tubeless folding,WHEELSET,0.475446
+3f5bf470208e447a973cf580f8b2d8b9,TIRE, zero tire tubeless folding,WHEELSET,0.591863
+27c1dc500c774a37bb69e56efb04e666,TIRE, zero tire tubeless folding,WHEELSET,0.591863
+69a80fd890fc416fbb22cc6be2b53cd0,TIRE, zero tire tubeless folding,WHEELSET,0.591863
+283f9a99ef864ced9efddf484af5aae6,TIRE, dry tire tubeless folding,WHEELSET,0.587590
+a93222c8abca473c97a13d5a861179df,TIRE, dry tire tubeless folding,WHEELSET,0.587590
+19a7fb3f50134276864fd3ceb49b6cd7,TIRE, pro control tire clincher folding black,WHEELSET,0.530532
+0abcfedb93df4a1fa2119fc7f3a4c075,TIRE, pro control tire clincher folding black,WHEELSET,0.530532
+68c22f620a1b454086450597dce7fe06,TIRE, pro tire tubeless folding black,WHEELSET,0.704212
+8483132f265b442f9b05945d05883a57,TIRE, wtb tire tubeless folding black,WHEELSET,0.378193
+1e4c0664152143f29d5462972b021b62,TIRE, wtb tire tubeless folding black,WHEELSET,0.378193
+908fba513fdc4c1b8cb063e5485027b6,RIM, wtb tough tcs aluminum rim black,RIM-STRIP-AND-TUBELESS-TAPE,0.326526
+c1f5ec8e6ef047f89937e4f22853e126,RIM, aluminum rim black,WHEELSET,0.168584
+2ef3f1965a164d18ad326559ae6af58f,RIM, aluminum rim black,WHEELSET,0.168584
+206e6fe58f0c4a8a9d10636ef7499ff1,RIM, rolling aluminum rim black,WHEELSET,0.303344
+7adc1ab5c6ca48ef887d6f86ac19c6df,RIM, tubes aluminum rim black,WHEELSET,0.262992
+8df968015458492a86f128d0ac4a1dee,RIM, tubes aluminum rim black,WHEELSET,0.262992
+b4b0c45dc1064f59bebbcbb4b204b9c2,RIM, swiss aluminum rim black,NIPPLE,0.230566
+dbe96f73308744f99c9d6ced79bc7b79,RIM, aluminum rim silver,WHEELSET,0.115769
+87cbf2528523415a94669d8894f5990a,REAR-WHEEL, quality wheels formula sealed rear wheel silver,BIKE,0.472226
+2f6277476e834976a8d4cf0b0be63e5a,REAR-WHEEL, quality wheels value single wall series rear wheel silver,WHEELSET,0.802746
+2c829d1e99f44f97a553dbe893291172,REAR-WHEEL, quality wheels value single wall series rear wheel black,WHEELSET,0.792134
+5bc8fa7a504a4cf7a515e3798e1e38d1,REAR-WHEEL, quality wheels value single wall series rear wheel black,WHEELSET,0.792134
+0c39e955452247c09ad350c382b3b0c4,REAR-WHEEL, quality wheels value series disc rear wheel centerlock black,WHEELSET,0.913648
+51a6268d911b4e36a86d9e2482bab2ad,REAR-WHEEL, quality wheels value double wall series rear wheel centerlock black,WHEELSET,0.735129
+c0df8f923f8e42deb2288812598f81bc,REAR-WHEEL, quality wheels value series rear wheel black,WHEELSET,0.859129
+620c61cd2e864219a276efa68fd3859c,SEATPOST, zipp service course carbon seatpost matte with white,WHEELSET,0.392893
+62ec177b4130454a91d9c299cc9bfad6,BOTTOM-BRACKET, sram gxp exi light bottom bracket,CRANKARM,0.389782
+add0405b7e2e4654994fc054fc44f795,BOTTOM-BRACKET, shimano dura ace exi light bottom bracket,FRONT-DERAILLEUR,0.592348
+e048001dc21c46f6ab285cf2cda53227,BOTTOM-BRACKET, sram gxp gxp bottom bracket,CRANKSET,0.391134
+15c50d8cbe7f47579df4d8fb079066bf,BRAKELEVER, shimano hydraulic left black,SHIFT-CONTROLS-LEFT,0.840733
+2d44e9e9f15341bdbd3e88097534e8ed,BRAKELEVER, shimano slx hydraulic right black,SHIFT-CONTROLS-RIGHT,0.596287
+61700bf1a93b4e1eab42eefb3db9a6b6,PEDAL, shimano carbon clipless pedal black,CRANKSET,0.231426
+52b0b334444e42ac96c13110b0d40e97,CASSETTE, speed black,CHAINRING,0.140927
+51084d93f8f34686a005eaaae2ca93ae,CASSETTE, dimension speed plated,CHAIN,0.158977
+931334db91f54ae7b75bc671d9b743b1,CASSETTE, dimension speed black,CHAINRING,0.119073
+b5ea36144bd5417696488e9a01fd03fc,CASSETTE, dimension speed chrome plated,CHAIN,0.284080
+bfac7b4ef87f4cc1b7f0fbb96a38222f,CASSETTE, shimano single speed chrome,CHAIN,0.284217
+b17981ca238c418ca37452bd5eefc1f8,CASSETTE, shimano single speed chrome,CHAIN,0.284217
+161d4486fd5d49eebfa95f7f6e0eeb6d,CASSETTE, shimano speed,SHIFT-CONTROLS-LEFT,0.129612
+e309448f0e6c49d7ba823a6508049931,HUB, bolt front hub black,REAR-WHEEL,0.282134
+4525887348d14a698ab9dcbb4979f80c,HUB, sram bolt shimano rear hub black,REAR-WHEEL,0.319560
+1b9428107c18466a8d9865e8a9ce8d6a,JACKET, men black large,SHORTS,0.161666
+6391f797a94d42c58a4a09176149e8d9,JACKET, men navy large,JERSEY,0.167003
+9abfd41e89a6498aaf51e4960a5f8266,JACKET, men navy large,JERSEY,0.167003
+9974ad31d6ca4dc9a713a7ff995c6d6a,BIKE, roam aluminum mountain large bike black,CAR-RACK,0.179369
+140a2f4aaf894b9c961d72d6b1de7de4,BIKE, laser,HEADSET,0.067549
+86d00f3cb700439e80de470f192421a2,BIKE, pro aluminum hybrid large bike metallic,CAR-RACK,0.249572
+c28363a40df84a0e82ef51cdb480b686,SADDLE, city bike saddle,BIKE,0.217487
+07201d4f64b545b5857035c2b55d0f80,T-SHIRT, men short sleeve shirt large,JERSEY,0.581869
+f8e863af4a044485bb298d4eba545677,T-SHIRT, trail men short sleeve shirt green black large,JERSEY,0.857803
+7eaed49fa26745f3afbef254ae912bf4,T-SHIRT, trail women short sleeve shirt green large,JERSEY,0.887703
+c8b49705d1f648b7aa34feb65895afbd,T-SHIRT, trail women short sleeve shirt green medium,JERSEY,0.836137
+3ca4391988f8444b86bb7ecbf923ce03,T-SHIRT, men short sleeve shirt large,JERSEY,0.581869
+c1193c4a31884334af80b571ff6b1f38,T-SHIRT, men short sleeve shirt large,JERSEY,0.581869
+1d2a3cf274364c6f9737afc7c4cefd9b,T-SHIRT, men long sleeve shirt turbulence gold large,JERSEY,0.494292
+002e2ef9c96848248c13d911c34707b1,T-SHIRT, men long sleeve shirt large,JERSEY,0.502135
+4d4ec38009b64c3b817d8149459bc022,T-SHIRT, men long sleeve shirt large,JERSEY,0.502135
+a9bf87f049034573adfff8416357f190,T-SHIRT, men long sleeve shirt navy large,JERSEY,0.539015
+0630d5ad1e21407c9bad1624d7a416b0,T-SHIRT, men long sleeve shirt large,JERSEY,0.502135
+e1d872bb2d9e443fa89fd3dab31b446e,T-SHIRT, women long sleeve shirt ice blue medium,JERSEY,0.534259
+c1196425198242cba526ddcc9976010e,SHORTS, men shorts wet weather,SHOES,0.260803
+2f1331f4f5994c949bb2662a3d98dc06,SHORTS, men shorts wet weather,SHOES,0.260803
+913740c8d545464292dfb0607f3c37af,HEAD-AND-NECKWEAR, super white medium,JERSEY,0.102464
+2a5cffb67209478ead2adb02f52299e3,HEAD-AND-NECKWEAR, merino lightweight neck tube black medium,SOCKS,0.293248
+2ec1d3023cc04be988c20a686ae9e50b,HEAD-AND-NECKWEAR, merino lightweight neck tube gray medium,SOCKS,0.363584
+1e21d454111b41308db8ca0777682857,HEAD-AND-NECKWEAR, silver gray medium,CHAIN,0.215827
+e02d242e0b3a4a6d8e3c6af2985200fc,HEAD-AND-NECKWEAR, medium,SOCKS,0.060387
+fbd91e1552ff448c89faa1010e9d75eb,HEAD-AND-NECKWEAR, medium,SOCKS,0.060387
+4d87b3db4c8c49b19c4f1a6827167ff1,HEAD-AND-NECKWEAR, medium,SOCKS,0.060387
+2629103ad479487e83a0232b55f11e6e,HEAD-AND-NECKWEAR, transfer lite white universal,AXLE,0.100875
+c0605c4308484415b62f3c34c0a15f91,HEAD-AND-NECKWEAR, transfer cap black universal,CAR-RACK,0.057854
+d7493141de5640a7bf0edda74f525e9a,HEAD-AND-NECKWEAR, merino hat black universal,SOCKS,0.061813
+812e358f51f443dd812fa3064d3d4984,HEAD-AND-NECKWEAR, cap black universal,STEM,0.061396
+a20facee7ec541e58ad541c8a3f525f3,HEAD-AND-NECKWEAR, nrth black universal,SOCKS,0.059939
+5873532c62d14e2c8a9d13290be73dc5,HEAD-AND-NECKWEAR, nrth lightweight cap black small medium,SOCKS,0.489191
+68f8d2c8b1e14fd1a124961d0c184650,HEAD-AND-NECKWEAR, nrth lightweight cap black large large,SOCKS,0.291464
+34e0eb0200eb4229a2a7692f8c00697e,HEAD-AND-NECKWEAR, nrth black small medium,SOCKS,0.338922
+aa54c80d23a547c889a0251c12ac553e,BAG, hip pack green,SHORTS,0.193643
+fffeba544bcc46aaaaa21c914bb47294,BAG, hip pack one size black,SHORTS,0.260336
+598cdb4d59e24837aaf27210f9223d91,BAG, hip pack green,SHORTS,0.193643
+881a3a387826429fbc6d4a05567bc0b7,BAG, hip pack black,SHORTS,0.128955
+ceff1439d0704a7aacdcef58716e3ec0,BAG, hip pack black,SHORTS,0.128955
+d133672d4e284de0925a750aa5e63ca2,BAG, podium flow belt hip pack black,SADDLE,0.141301
+558d7888030342b9946f840680a18596,BAG, pack,SPOKE,0.103649
+7b3353f827734a06bba1ef0470b66286,BAG, pack black,GRIPS,0.073861
+9dbabd223137461abd650c8576240126,BAG, pack lime,SPOKE,0.106246
+c5d600354cde4c11816884d1e8712cbd,BAG, pack black,GRIPS,0.073861
+826fcdbfb98c4f558a47d6e743f26eb5,BAG, trail edition hip pack black,GRIPS,0.229319
+5028dbdd8afa4db4b21484b1fa8726a6,BAG, pack,SPOKE,0.103649
+f4c25fc95e0a4262928cdf9222845c57,BAG, design mountain red,CRANKSET,0.106063
+7cae41fe758047fba225ede99d0a96b2,BAG, protector blue,JACKET,0.151012
+acccc4c7e14341bc8868400c35d08e8c,BAG, protector blue,JACKET,0.151012
+bfb0939405714cd086de2ca6332aa0db,BASE-LAYERS-AND-WARMTH, women transfer wool small black,SOCKS,0.146238
+d1c40d7bcf4f4fbe93ad8329e52f3d11,BASE-LAYERS-AND-WARMTH, women transfer wool short sleeve large black,JERSEY,0.740008
+b374d0602ebb42f39b864932d336ba09,BASE-LAYERS-AND-WARMTH, women transfer wool long sleeve large black,JERSEY,0.578080
+43db7600f68b4fe2b9005c7cc8b2f3ee,BASE-LAYERS-AND-WARMTH, women transfer small black,SHOES,0.108324
+c97f22b25f3849ef857f189616ec0cdc,BASE-LAYERS-AND-WARMTH, women transfer large black,SHORTS,0.161273
+e32bccb77f634c98a1dd48f7320cf026,BASE-LAYERS-AND-WARMTH, men transfer wool medium black,SOCKS,0.179215
+5365bad5e2064fca9b2435181d742bcd,BASE-LAYERS-AND-WARMTH, women transfer wool medium black,SOCKS,0.169828
+6f378f6333544561983887b7222ac197,BASE-LAYERS-AND-WARMTH, men merino large,GLOVES,0.119753
+fabc095b0b4c4c00b56dc3c0d96d91cb,BASE-LAYERS-AND-WARMTH, men merino medium,SOCKS,0.141186
+262df23d6a1b430898665d35feb0a6f7,BASE-LAYERS-AND-WARMTH, men merino large,GLOVES,0.119753
+8804ce138f7c47e4b7776afb455910af,BASE-LAYERS-AND-WARMTH, men cargo base medium black,BOTTLE-CAGE,0.200653
+e462b118a19e4935ae3ea1d44f86fb4d,BASE-LAYERS-AND-WARMTH, men cargo base small black,BOTTLE-CAGE,0.267600
+02e13663444c415b9d8df4bf7661178f,BASE-LAYERS-AND-WARMTH, men cargo base small white,JERSEY,0.224298
+9b35c5c6fd0a43e3bbc174210f7941da,BASE-LAYERS-AND-WARMTH, sun sleeve large white,JERSEY,0.641593
+3069036ce6454423bcb8ab15ba1b3058,BASE-LAYERS-AND-WARMTH, men thermal medium black,SHORTS,0.239542
+03d4c2aef47347beab02ee1db21e9998,BASE-LAYERS-AND-WARMTH, men thermal small black,SHORTS,0.163167
+809260630e3f47f0a09a728a18198ff2,BASE-LAYERS-AND-WARMTH, men thermal large black,SHORTS,0.355697
+18ed02dbc7974d19ba9f0569eaa135ff,BASE-LAYERS-AND-WARMTH, men thermal large black,SHORTS,0.355697
+c51708aa1bb040429d5ffa40110b7f8d,BASE-LAYERS-AND-WARMTH, men thermal medium black,SHORTS,0.239542
+672e52e93fb146e3874144339622dc59,BASE-LAYERS-AND-WARMTH, men thermal small black,SHORTS,0.163167
+4f4f26cf4b4a4173b5166fa43bfb124c,BASE-LAYERS-AND-WARMTH, men transfer small black,SHOES,0.128355
+590e4215d0e246b3ab92ea96f58845c5,BASE-LAYERS-AND-WARMTH, women cargo base large black,BOTTLE-CAGE,0.231081
+040c46b4a9864b5ea5f4949cd904da15,BASE-LAYERS-AND-WARMTH, women cargo base small black,BOTTLE-CAGE,0.258133
+84cebbdda598432ba716d2615b061a29,BASE-LAYERS-AND-WARMTH, women thermal large black,SHORTS,0.366965
+913efcb11a234368a3f4221b684510ee,BASE-LAYERS-AND-WARMTH, women thermal medium black,SHORTS,0.220268
+2e34bba70fcf435781ac40f61ddea170,BASE-LAYERS-AND-WARMTH, women thermal large black,SHORTS,0.366965
+457b089b3262407b9534f28d42ab5c0d,BASE-LAYERS-AND-WARMTH, women thermal large black,SHORTS,0.366965
+c732546297064bc0b1f6b0b5b6152a00,BASE-LAYERS-AND-WARMTH, women thermal small black,SHORTS,0.159686
+7c4d258477e841519cf7dd9cb9cdace9,BASE-LAYERS-AND-WARMTH, women thermal cycling large black,SHORTS,0.526421
+bfd8de30ffdd41358a7d16c6a76c7a14,BASE-LAYERS-AND-WARMTH, women thermal large black,SHORTS,0.366965
+afa996fecc1d46a2892b66c40caeb1ce,BASE-LAYERS-AND-WARMTH, men merino large,GLOVES,0.119753
+baaddaf8dfdc4e23ab3b57d187cdbb3b,BASE-LAYERS-AND-WARMTH, men merino medium,SOCKS,0.141186
+cae92b5095f241cc9317928eded7c6c4,SHIFT-CONTROLS, sram mechanical right shifter speed,SHIFT-CONTROLS-RIGHT,0.969711
+8a679e42a4454193ad87f06816e99c81,SHIFT-CONTROLS, mechanical right shifter speed,SHIFT-CONTROLS-RIGHT,0.955243
+caa1ea041ea349169fcbf4535cf229e9,SHIFT-CONTROLS, shimano right clamp band speed shifter black,SHIFT-CONTROLS-RIGHT,0.973792
+4586e9150d924df89d239efe20fa14c1,SHIFT-CONTROLS, shimano plus mechanical right shifter speed,SHIFT-CONTROLS-RIGHT,0.853391
+5adb3e5ec8744a8c98c3e2e08f3deb2d,SHIFT-CONTROLS, shimano plus mechanical right shifter speed,SHIFT-CONTROLS-RIGHT,0.853391
+3fdaca9d71c843c58bd6e27bfaeec520,SHIFT-CONTROLS, shimano plus mechanical right shifter speed,SHIFT-CONTROLS-RIGHT,0.853391
+970fbe6f74b54f8aa9b53eb0646d9f87,SHIFT-CONTROLS, sram eagle mechanical right shifter speed,SHIFT-CONTROLS-RIGHT,0.965099
+2b631a985abc41369c364f123a29502b,SHIFT-CONTROLS, sram comp mechanical right shifter speed,SHIFT-CONTROLS-RIGHT,0.947632
+7566f2e145bf42bdb70acb0b97d46751,SHIFT-CONTROLS, sram comp mechanical right shifter speed,SHIFT-CONTROLS-RIGHT,0.947632
+d037017b3b564750bbf7af47c81c1cb0,SHIFT-CONTROLS, sram comp mechanical right shifter speed,SHIFT-CONTROLS-RIGHT,0.947632
+82a674cb5f1a4cf3b7b94b20a7ba219d,SHIFT-CONTROLS, shimano mechanical right shifter speed,SHIFT-CONTROLS-RIGHT,0.940727
+26cfb429517647bbbda26dccd1d15eaa,SHIFT-CONTROLS, shimano mechanical right brake speed,SHIFT-CONTROLS-RIGHT,0.907886
+963bc73c50d6444993ab50d45dabb664,SHIFT-CONTROLS, sram rival mechanical right brake speed,SHIFT-CONTROLS-RIGHT,0.961740
